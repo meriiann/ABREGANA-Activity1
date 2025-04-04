@@ -75,7 +75,7 @@ section{
 
 #about .ngee {
     height: 100vh;
-    background: url('./img_avatar1.jpg');
+    background: url('./about.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -149,4 +149,48 @@ section{
     background-color: #be8f5d;
     color:#fff;
 
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#be8f5d;
+}
+
+#footer ul.list-unstyled li a{
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a{
+    color: rgb(218, 25, 236);
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    #about h2{
+        font-size: 40px;
+    }
+
+     #sheshh .col-lg-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+    #about .eyyy{
+    padding: 40px;
+}
+
+    #about .ngee {
+    height: 300px;
+}
+}
+
+    #about {
+    overflow-x: hidden;
 }
